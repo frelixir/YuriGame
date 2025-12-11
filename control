@@ -1,0 +1,8 @@
+Package: com.lotus.yurigame
+Name: yurigame
+Version: 1.0
+Architecture: iphoneos-arm
+Description: 多功能模拟器
+Maintainer: lotus
+Author: lotus
+Section: Utilities
