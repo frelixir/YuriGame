@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "ONSPlayer微信公众号已经开通\n欢迎━(*｀∀´*)ノ亻!关注"; ObjectID = "9dI-Ew-zga"; */
+"9dI-Ew-zga.text" = "Main Menu";
+
+/* Class = "UIButton"; normalTitle = " 导入"; ObjectID = "D4L-E9-WVc"; */
+"D4L-E9-WVc.normalTitle" = " 导入";
+
+/* Class = "UIButton"; normalTitle = "  帮助"; ObjectID = "uPO-zM-P1I"; */
+"uPO-zM-P1I.normalTitle" = "  帮助";
+
+/* Class = "UILabel"; text = "ONSPlayer"; ObjectID = "xfY-uy-bk7"; */
+"xfY-uy-bk7.text" = "ONSPlayer";
