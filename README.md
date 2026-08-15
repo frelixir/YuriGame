@@ -24,6 +24,7 @@ App 内置了三款游戏引擎，包含以下引擎支持：
 *   设置沙箱环境变量、创建缓存目录、修改进程路径、dlopen动态加载子应用二进制、修改dyld映像路径、交换NSBundle.mainBundle方法、修改进程参数和名称、调用子应用的main函数、调用主应用URL调用成功退出。
 
 ##  项目结构：
+```text
 YuriGame/
 ├── APP_Patch/                # 游戏引擎内核的补丁源码
 ├── control
@@ -33,7 +34,8 @@ YuriGame/
 ├── Resources/                # 资源文件夹
 ├── Resources/Frameworks/     # 已编译的内核补丁
 ├── Resources/PlugIns/        # 已修补的游戏引擎内核
-├── YuriGameUI/               # UI界面源码
+└── YuriGameUI/               # UI界面源码
+```
 
 注意：操作界面以及启动游戏的逻辑只需修改YuriGameUI即可。
 注意：YuriGameUI编译为YuriGameUI.dylib放置在Frameworks中
