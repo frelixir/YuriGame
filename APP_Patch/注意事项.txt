@@ -1,0 +1,4 @@
+此处为游戏引擎内核的补丁源代码，非必要不需要编译或者修改。
+
+补丁已编译并放置在
+YuriGame/Resources/Frameworks中

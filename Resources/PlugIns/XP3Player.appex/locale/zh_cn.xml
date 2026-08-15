@@ -3,6 +3,7 @@
     <Item id="preference_title" text="全局设置"/>
     <Item id="preference_title_individual" text="独立设置"/>
     <Item id="preference_output_log" text="打印日志"/>
+    <Item id="preference_hide_when_background" text="切后台时隐藏"/>
     <Item id="preference_select_renderer" text="图形渲染器"/>
     <Item id="preference_opengl" text="OpenGL（试验性）"/>
     <Item id="preference_software" text="软件渲染器"/>
@@ -61,9 +62,9 @@
     <Item id="ensure_to_override_file" text="确认要覆盖吗："/>
     <Item id="readonly_storage" text="发现只读的外部存储器"/>
     <Item id="cannot_create_preference" text="无法创建配置"/>
-    <Item id="use_internal_path" text="为避免弹出这个提示以及可能出现的存档丢失，建议移动您的游戏路径到这里：&#10;%1&#10;&#10;仍然使用当前路径运行？"/>
+    <Item id="use_internal_path" text="外部存储目录无法安全写入文件，请移动或复制文件到些下列位置之后再尝试启动："/>
     <Item id="continue_run" text="仍然继续"/>
-    <Item id="get_sdcard_permission" text="获取写入权限（可能很慢）"/>
+    <Item id="get_sdcard_permission" text="获取写入权限"/>
     <Item id="crash_report" text="崩溃报告"/>
     <Item id="crash_report_msg" text="发现崩溃数据，发送数据（%d个文件）到服务器以助我们改进这个应用？"/>
     <Item id="menu_rotate" text="旋转屏幕"/>
@@ -75,6 +76,7 @@
     <Item id="menu_exit" text="退出"/>
     <Item id="menu_help" text="查看帮助"/>
     <Item id="menu_archive_repack" text="转换/解密XP3封包"/>
+    <Item id="menu_web_server" text="Web文件服务器"/>
     <Item id="about_content" text="可以在github补丁页面寻找补丁：&#10;https://zeas2.github.io/Kirikiroid2_patch/patch&#10;如遇到问题，请反馈到到项目页面：&#10;https://github.com/zeas2/Kirikiroid2/issues&#10;或者到百度贴吧寻找解决方案：&#10;百度Kirikiroid2吧"/>
     <Item id="about_content_i" text=""/>
     <Item id="sure_to_exit" text="确定退出吗？"/>
@@ -113,7 +115,7 @@
 	<Item id="filemgr_sendto" text="发送到"/>
 	<Item id="filemgr_unpack" text="解压缩"/>
 	<Item id="filemgr_rename" text="重命名"/>
-	<Item id="file_operate_failed" text="文件操作失败："/>
+	<Item id="file_operate_failed" text="文件操作失败，是否跳过？"/>
 	<Item id="fail_to_open_archive" text="无法作为压缩包打开："/>
 	
 	<Item id="archive_repack_desc" text="解密并转换封包可以加快运行的速度并减少发热量。请保证剩余的空间大于最大的封包文件大小，否则转换操作可能会失败。"/>

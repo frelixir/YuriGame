@@ -3,6 +3,7 @@
     <Item id="preference_title" text="Global Preference"/>
     <Item id="preference_title_individual" text="Individual Preference"/>
     <Item id="preference_output_log" text="Output Log"/>
+    <Item id="preference_hide_when_background" text="Hide when background"/>
     <Item id="preference_select_renderer" text="Select Renderer"/>
     <Item id="preference_opengl" text="OpenGL(Experimental)"/>
     <Item id="preference_software" text="Software"/>
@@ -61,7 +62,7 @@
     <Item id="ensure_to_override_file" text="Please ensure to override:"/>
     <Item id="readonly_storage" text="Read-only external storage detected"/>
     <Item id="cannot_create_preference" text="Can not create individual preference file."/>
-    <Item id="use_internal_path" text="Please copy your game folder into package path to avoid this warning or you may lost your savedata:&#10;%1&#10;&#10;Continue anyway?"/>
+    <Item id="use_internal_path" text="Cannot access write permission for external storage, please copy/move data into the package paths listed below then try again:"/>
     <Item id="continue_run" text="Continue"/>
     <Item id="get_sdcard_permission" text="Fetch Permission(May Slow)"/>
     <Item id="crash_report" text="Crash Report"/>
@@ -75,6 +76,7 @@
     <Item id="menu_exit" text="Exit"/>
     <Item id="menu_help" text="View Help"/>
     <Item id="menu_archive_repack" text="Conv/Dec XP3"/>
+    <Item id="menu_web_server" text="Web File Server"/>
     <Item id="about_content" text="Find patch here:&#10https://zeas2.github.io/Kirikiroid2_patch/patch&#10Report bugs here:&#10;https://github.com/zeas2/Kirikiroid2/issues"/>
     <Item id="about_content_i" text=""/>
     <Item id="sure_to_exit" text="Sure to exit?"/>
@@ -113,7 +115,7 @@
 	<Item id="filemgr_sendto" text="Send to..."/>
 	<Item id="filemgr_unpack" text="Unpack"/>
 	<Item id="filemgr_rename" text="Rename"/>
-	<Item id="file_operate_failed" text="File operation fail:"/>
+	<Item id="file_operate_failed" text="Failed to operate file, skip?"/>
 	<Item id="fail_to_open_archive" text="Fail to open archive:"/>
 	
 	<Item id="archive_repack_desc" text="Convert and dec the archive could speed up and reduce heat. Please ensure the free spaec is larger than the maximum archive size, otherwise the operation may fail."/>

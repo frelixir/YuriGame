@@ -3,6 +3,7 @@
     <Item id="preference_title" text="全体設定"/>
     <Item id="preference_title_individual" text="個別設定"/>
     <Item id="preference_output_log" text="ログを出力する"/>
+    <Item id="preference_hide_when_background" text="バックグラウンド遷移時に画面を隠す"/>
     <Item id="preference_select_renderer" text="画面の描画方法"/>
     <Item id="preference_opengl" text="OpenGL（実験的）"/>
     <Item id="preference_software" text="ソフトウェア"/>
@@ -61,7 +62,7 @@
     <Item id="ensure_to_override_file" text="上書きしますか："/>
     <Item id="readonly_storage" text="読み取り専用ストレージを検出します"/>
     <Item id="cannot_create_preference" text="個別設定を作成することが出来ません"/>
-    <Item id="use_internal_path" text="この警告を回避するため、内部ストレージにファイルをコピーしてください。続行するとセーブデータが消える可能性があります。：&#10;%1&#10;&#10;このまま続けていますか？"/>
+    <Item id="use_internal_path" text="外部ストレージに書き込むことはできません。ファイルを次のパスに移動またはコピーして、再度実行してみてください："/>
     <Item id="crash_report" text="クラッシュ報告"/>
     <Item id="crash_report_msg" text="このアプリを改善するためにクラッシュデータ（%dファイル）をアップロードしますか？"/>
     <Item id="menu_rotate" text="画面回転"/>
@@ -72,7 +73,8 @@
     <Item id="menu_about" text="バージョン情報"/>
     <Item id="menu_exit" text="終了"/>
     <Item id="menu_help" text="ヘルプ"/>
-    <Item id="menu_archive_repack" text="Conv/Dec XP3"/>
+    <Item id="menu_archive_repack" text="変換/復号化XP3"/>
+    <Item id="menu_web_server" text="Webサーバー"/>
     <Item id="about_content" text="Find patch here:&#10https://zeas2.github.io/Kirikiroid2_patch/patch&#10Report bugs here:&#10;https://github.com/zeas2/Kirikiroid2/issues"/>
     <Item id="about_content_i" text=""/>
     <Item id="sure_to_exit" text="終了しますか？"/>
@@ -110,7 +112,7 @@
 	<Item id="filemgr_sendto" text="送信する"/>
 	<Item id="filemgr_unpack" text="解凍する"/>
 	<Item id="filemgr_rename" text="名前を変更する"/>
-	<Item id="file_operate_failed" text="ファイル操作が失敗しました："/>
+	<Item id="file_operate_failed" text="操作が失敗しました，スキップしますか"/>
 	<Item id="fail_to_open_archive" text="アーカイブ操作が失敗しました："/>
 	
 	<Item id="archive_repack_desc" text="Convert and dec the archive could speed up and reduce heat. Please ensure the free spaec is larger than the maximum archive size, otherwise the operation may fail."/>

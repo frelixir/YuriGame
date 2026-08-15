@@ -1,0 +1,5 @@
+在Library/boot.txt中写入路径
+比如：
+/var/mobile/Containers/Data/Application/CFEEC051-55AC-4297-B0F9-0504171C500C/Documents/宿星的女友
+
+这个版本只需传递标准路径即可。
